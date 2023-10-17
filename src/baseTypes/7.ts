@@ -13,8 +13,5 @@ enum DayWeek {
 }
 
 function isWeekend(day: DayWeek) {
-  if (day === "Weekend") {
-    return true
-  }
-  return false
+    return day === "Weekend";
 }
